@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <p class="charis"><u>&lt; &lt; CharisIntelligence Project! &gt; &gt;</u></p>
+    <br /><br />
+
+    <h1>Guess the Number (1–100)</h1>
+
+    <input
+      type="number"
+      id="userInput"
+      min="1"
+      max="100"
+      placeholder="Enter a number"
+    />
+    <button id="playBtn">Play</button>
+
+    <div class="container">
+      <div id="userSquare" class="square">?</div>
+      <div id="randomSquare" class="square">?</div>
+    </div>
+
+    <p id="message"></p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

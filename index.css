@@ -1,0 +1,66 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4b79a1, #283e51);
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .charis {
+      font-size: 25px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .square {
+      width: 120px;
+      height: 120px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 3px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .square.flash {
+      background: limegreen;
+      transform: scale(1.1);
+    }
+
+    .square.random-flash {
+      background: orange;
+      transform: scale(1.1);
+    }
+
+    input {
+      padding: 10px;
+      width: 300px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background: gold;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
