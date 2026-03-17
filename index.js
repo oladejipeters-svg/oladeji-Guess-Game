@@ -10,12 +10,12 @@ function clearInput() {
 }
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault() //prevents reloading
+  e.preventDefault(); //prevents reloading
   const userValue = Number(input.value);
+  message.textContent = "";
 
-  if (!userValue || userValue < 1 || userValue > 100) {
+  if (isNaN(userValue) || userValue < 1 || userValue > 100) {
     message.textContent = "Enter a number between 1 and 100.";
-    return;
   }
 
   userSquare.textContent = userValue;
@@ -29,11 +29,11 @@ form.addEventListener("submit", function (e) {
 
   if (userValue === randomNumber) {
     message.textContent = "🎉 You Won!";
-    message.style.color = "lime";
+    message.style.color = "black";
     clearInput();
   } else {
     message.textContent = "❌ Try Again!";
-    message.style.color = "orange";
+    message.style.color = "purple";
     clearInput();
   }
 });
