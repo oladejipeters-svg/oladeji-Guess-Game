@@ -102,9 +102,10 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 .charis {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   padding-bottom: 40px;
+  margin: 10px 50px;
 }
  .container {
       display: flex;
@@ -114,15 +115,15 @@ body {
     }
 
     .square {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       background: rgba(255, 255, 255, 0.15);
       border: 3px solid white;
       border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 32px;
+      font-size: 42px;
       font-weight: bold;
       transition: 0.3s;
     }
@@ -139,30 +140,32 @@ body {
 
     input {
       padding: 10px;
-      width: 300px;
-      font-size: 18px;
+      width: 500px;
+      height: 50px;
+      font-size: 30px;
       border-radius: 5px;
       border: 2px inset pink;
       background-color: white;
     }
 
     button {
-      padding: 10px 100px;
-      font-size: 18px;
+      padding: 40px 160px;
+      font-size: 40px;
       border: 1px solid pink;
-      border-radius: 5px;
+      border-radius: 20px;
       background: gold;
       cursor: pointer;
-      margin-left: 10px;
+      margin: 30px;
     }
 
     #message {
       margin-top: 70px;
-      font-size: 24px;
+      font-size: 40px;
       font-weight: bold;
     }
     h1 {
-      margin-bottom: 20px;
+      margin-bottom: 60px;
+      font-size: 50px;
     }
     button:hover {
       transform: scale(1.1);
@@ -275,9 +278,9 @@ body {
   }
 
   .charis {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 
   .container {
@@ -340,8 +343,8 @@ body {
   }
 
   h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 22px;
   }
 
   button:hover {
