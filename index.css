@@ -15,263 +15,260 @@ body {
   padding-top: 30px;
   border: 2px solid rgb(85, 213, 143);
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .charis {
   font-size: 25px;
   font-weight: 600;
   padding-bottom: 40px;
 }
- .container {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 30px;
-    }
-
-    .square {
-      width: 120px;
-      height: 120px;
-      background: rgba(255, 255, 255, 0.15);
-      border: 3px solid white;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .square.flash {
-      background: limegreen;
-      transform: scale(1.1);
-    }
-
-    .square.random-flash {
-      background: orange;
-      transform: scale(1.1);
-    }
-
-    input {
-      padding: 10px;
-      width: 300px;
-      font-size: 18px;
-      border-radius: 5px;
-      border: 2px inset pink;
-      background-color: white;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      border: 1px solid pink;
-      border-radius: 5px;
-      background: gold;
-      cursor: pointer;
-      margin-left: 10px;
-    }
-
-    #message {
-      margin-top: 70px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    button:hover {
-      transform: scale(1.1);
-    }
-
-
-    @media screen and (min-width: 1000px) {
-
-
-body {
+.container {
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 70vw;
-  text-align: center;
-  height: 95vh;
-  padding-top: 30px;
-  border: 5px solid rgb(113, 76, 4);
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid white;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-}
-.charis {
-  font-size: 25px;
-  font-weight: 600;
-  padding-bottom: 40px;
-}
- .container {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 30px;
-    }
-
-    .square {
-      width: 120px;
-      height: 120px;
-      background: rgba(255, 255, 255, 0.15);
-      border: 3px solid white;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .square.flash {
-      background: limegreen;
-      transform: scale(1.1);
-    }
-
-    .square.random-flash {
-      background: orange;
-      transform: scale(1.1);
-    }
-
-    input {
-      padding: 10px;
-      width: 300px;
-      font-size: 18px;
-      border-radius: 5px;
-      border: 2px inset pink;
-      background-color: white;
-    }
-
-    button {
-      padding: 10px 100px;
-      font-size: 18px;
-      border: 1px solid pink;
-      border-radius: 5px;
-      background: gold;
-      cursor: pointer;
-      margin-left: 10px;
-    }
-
-    #message {
-      margin-top: 70px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    button:hover {
-      transform: scale(1.1);
-    }
-
-    }
-
-
-  @media screen and (min-width: 550px) and (max-width: 999px) {
- 
-body {
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 70vw;
-  text-align: center;
-  height: 95vh;
-  padding-top: 30px;
-  border: 5px solid rgb(213, 183, 85);
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  transition: 0.3s;
 }
-.charis {
-  font-size: 25px;
-  font-weight: 600;
-  padding-bottom: 30px;
+
+.square.flash {
+  background: limegreen;
+  transform: scale(1.1);
 }
- .container {
-      display: flex;
-      justify-content: center;
-      gap: 60px;
-      margin: 20px 30px;
-    }
 
-    .square {
-      width: 100px;
-      height: 100px;
-      background: rgba(255, 255, 255, 0.15);
-      border: 3px solid white;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+.square.random-flash {
+  background: orange;
+  transform: scale(1.1);
+}
 
-    .square.flash {
-      background: limegreen;
-      transform: scale(1.1);
-    }
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px inset pink;
+  background-color: white;
+}
 
-    .square.random-flash {
-      background: orange;
-      transform: scale(1.1);
-    }
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid pink;
+  border-radius: 5px;
+  background: gold;
+  cursor: pointer;
+  margin-left: 10px;
+}
 
-    input {
-      padding: 10px;
-      width: 300px;
-      font-size: 18px;
-      border-radius: 5px;
-      border: 2px inset pink;
-      background-color: white;
-    }
+#message {
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  margin-bottom: 20px;
+}
+button:hover {
+  transform: scale(1.1);
+}
 
-    button {
-      padding: 10px 100px;
-      font-size: 18px;
-      border: 1px solid pink;
-      border-radius: 5px;
-      background: gold;
-      cursor: pointer;
-      margin-left: 10px;
-    }
-
-    #message {
-      margin-top: 50px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    h1 {
-      margin-bottom: 30px;
-    }
-    button:hover {
-      transform: scale(1.1);
-    }
-
-    }
-
-
-
-  @media screen and (min-width: 300px) and (max-width: 549px) {
- 
+@media screen and (min-width: 1000px) {
   body {
     display: flex;
     flex-direction: column;
-    align-items: center;     
-    margin: 20px auto;
-    width: 85%;                
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70vw;
     text-align: center;
-    height: fit-content;       
-    min-height: unset;         
-    padding: 30px 15px 30px;   
+    height: 95vh;
+    padding-top: 30px;
+    border: 5px solid rgb(113, 76, 4);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .charis {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .square {
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .square.flash {
+    background: limegreen;
+    transform: scale(1.1);
+  }
+  .scores {
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .scores p {
+    margin: 30px;
+  }
+
+  .square.random-flash {
+    background: orange;
+    transform: scale(1.1);
+  }
+
+  input {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px inset pink;
+    background-color: white;
+  }
+
+  button {
+    padding: 10px 100px;
+    font-size: 18px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    background: gold;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  #message {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 999px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70vw;
+    text-align: center;
+    height: 95vh;
+    padding-top: 30px;
+    border: 5px solid rgb(213, 183, 85);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .charis {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px 30px;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .square.flash {
+    background: limegreen;
+    transform: scale(1.1);
+  }
+
+  .square.random-flash {
+    background: orange;
+    transform: scale(1.1);
+  }
+
+  input {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px inset pink;
+    background-color: white;
+  }
+
+  button {
+    padding: 10px 100px;
+    font-size: 18px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    background: gold;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  #message {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h1 {
+    margin-bottom: 30px;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 549px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 85%;
+    text-align: center;
+    height: fit-content;
+    min-height: unset;
+    padding: 30px 15px 30px;
     border: 5px solid rgb(227, 26, 227);
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
 
   .charis {
@@ -283,7 +280,7 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    gap: 30px;                 
+    gap: 30px;
     margin: 20px auto;
   }
 
@@ -313,7 +310,7 @@ body {
 
   input {
     padding: 10px;
-    width: 200px;           
+    width: 200px;
     font-size: 16px;
     border-radius: 5px;
     border: 2px inset pink;
@@ -348,10 +345,3 @@ body {
     transform: scale(1.1);
   }
 }
-
-
-
-
-
-
-    
