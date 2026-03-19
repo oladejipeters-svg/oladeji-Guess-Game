@@ -136,7 +136,7 @@ button:hover {
     text-align: center;
   }
   .scores p {
-    margin: 30px;
+    margin: 10px;
   }
 
   .square.random-flash {
@@ -160,7 +160,8 @@ button:hover {
     border-radius: 5px;
     background: gold;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   #message {
@@ -200,8 +201,8 @@ button:hover {
   }
 
   .square {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background: rgba(255, 255, 255, 0.15);
     border: 3px solid white;
     border-radius: 10px;
@@ -239,11 +240,13 @@ button:hover {
     border-radius: 5px;
     background: gold;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   #message {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
   }
@@ -330,8 +333,8 @@ button:hover {
   }
 
   #message {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     font-size: 20px;
     font-weight: bold;
   }
